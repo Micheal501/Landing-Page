@@ -10,9 +10,7 @@ header{
     background-color:#1f2937;
     align-items: center;
     justify-content: space-around;
-
 }
-
 
 .logo{
     color:#f9faf8;
@@ -46,8 +44,8 @@ header{
     text-align: center;
     background-color:#1f2937;
     color:#f9faf8;
-    font-size:18px;
-
+    font-size:38px;
+    padding:10px;
 }
 
 .button{
@@ -68,14 +66,21 @@ header{
     margin-top: 25px;
     box-shadow: none;
     margin-bottom: 20px;
+    text-align: center;
 }
 
+.content{
+    background: url(../img/backgroun.jpg);
+    background-size: cover;
+}
 .achieve{
     text-align: center;
     background-color: #454b57;
     color:#f9faf8;
     padding-bottom: 25px;
     padding-top: 26px;
+    font-size: 45px;
+    font-weight: bold;
 }
 
 .photos{
@@ -83,7 +88,8 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-bottom: 40px;
+    padding-bottom: 110px;
+    padding-top: 50px;
 }
 
 .photo{
@@ -94,3 +100,34 @@ header{
     height:400px;
 }
 
+.quotes{
+    background-color:#898d95;
+    padding:200px 0;
+    background: url(../img/backgroun.jpg);
+    background-size: cover;
+}
+
+.quote{
+    text-align: center;
+    font-size: 50px;
+    color:#f9faf8;
+    font-weight: 900;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top:70px;
+    padding-bottom: 50px;
+    background-color: #1f2937;
+}
+
+.button1{
+    display: flex;
+    justify-content: center;
+    margin:0;
+    padding:0;
+    background-color: #1f2937;
+    padding-bottom:50px;
+}
